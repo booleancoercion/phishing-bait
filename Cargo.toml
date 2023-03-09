@@ -1,0 +1,12 @@
+[package]
+name = "phishing-bait"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.69"
+once_cell = "1.17.1"
+rayon = "1.7.0"
+regex = { version = "1.7.1" }
+tldextract = "0.6.0"
+whois-rust = "1.5.1"
